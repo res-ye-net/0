@@ -104,7 +104,7 @@ display:inline-block !important;
 <div class="row">
 <div id="box" class="col-sm-4 pull-right">
 <div id="title2">الثانوية العامة - علمي</div>
-<form class="form" action="../external.html?link=https://res-ye.net/class1.php" method="get">
+<form name="form" action="../external.html?link=https://res-ye.net/class1.php" method="get">
 <div class="form-group">
 <div class="input-group">
 <span class="input-group-addon" id="i2_select"><i class="glyphicon glyphicon-calendar"></i></span>
@@ -129,6 +129,8 @@ display:inline-block !important;
 </div>
 </div>
 <button class="btn btn-primary" type="submit" name="submit" id="btn1" disabled="disabled">بحث</button>
+    <button onclick="location.href='https://c-yemhis.github.io/c.yemhis.org-index.php-gid-'+document.form.gid.value" class="btn btn-primary" type="submit" name="submit" value="بحث" id="btn2" >بحث </button>
+
 </div>
 </form>
 </div>
@@ -158,6 +160,8 @@ display:inline-block !important;
 </div>
 </div>
 <button class="btn btn-primary" type="submit" name="submit" value="بحث" id="btn2" disabled="disabled">بحث </button>
+    <button onclick="location.href=document.form.num.value+document.form.grade.value" class="btn btn-primary" type="submit" name="submit" value="بحث" id="btn2" >بحث </button>
+
 </div>
 </form>
 </div>
