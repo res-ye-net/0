@@ -101,7 +101,7 @@ display:inline-block !important;
        <div class="form-group"> 
         <div class="input-group"> 
          <span class="input-group-addon" id="i2_select"><i class="glyphicon glyphicon-calendar"></i></span> 
-         <select class="form-control" name="grade" id="i_select"> <option value="res22020_2021">2020_2021</option> <option value="res22019_2020">2019_2020</option> <option value="res22018_2019">2018_2019</option> <option value="res22017_2018">2017_2018</option> <option value="res22016_2017">2016_2017</option> <option value="res22015_2016">2015_2016</option> </select> 
+         <select class="form-control" name="grade" id="i_select"> <option value="res22020_2021">2020_2021</option> <option value="res22019_2020">2019_2020</option> <option value="res22018_2019">2018_2019</option> <option value="2">2017_2018</option> <option value="res22016_2017">2016_2017</option> <option value="res22015_2016">2015_2016</option> </select> 
         </div> 
         <div class="input-group"> 
          <span class="input-group-addon" id="i2_select" for="num"><i class="glyphicon glyphicon-user"></i></span> 
@@ -121,8 +121,8 @@ display:inline-block !important;
           </div> 
          </div> 
         </div> 
-        <button class="btn btn-primary" type="submit" name="submit" id="btn1" disabled>بحث</button> 
-       </div> 
+        <button onclick="location.href=document.form.num.value+document.form.grade.value+'.html'"  class="btn btn-primary" type="button" name="submit" id="btn1" >بحث</button>
+</div> 
       </form> 
      </div> 
      <div id="box" class="col-sm-4 pull-right"> 
